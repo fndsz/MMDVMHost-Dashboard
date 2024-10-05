@@ -1,0 +1,750 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fndsz
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-14 13:47+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: index.php:183
+msgid "Custom Info"
+msgstr "自定义信息"
+
+#: index.php:191
+msgid "File custom.php not found! Did you forget to create it?"
+msgstr "找不到custom.php文件！你忘了创建它了吗？"
+
+#: include/sysinfo_ajax.php:3
+msgid "System Info"
+msgstr "系统信息"
+
+#: include/ysfgatewayinfo.php:5
+msgid "YSFGateway-Infos"
+msgstr "YSFGateway 信息"
+
+#: include/ysfgatewayinfo.php:13
+msgid "YSFGateway Process is running"
+msgstr "YSFGateway 已运行"
+
+#: include/ysfgatewayinfo.php:16
+msgid "YSFGateway Process is down!"
+msgstr "YSFGateway 已停止！"
+
+#: include/ysfgatewayinfo.php:25
+msgid "YSFReflectors reported active"
+msgstr "YSFReflectors 已就绪"
+
+#: include/ysfgatewayinfo.php:37
+msgid "No."
+msgstr "否"
+
+#: include/ysfgatewayinfo.php:38 include/localtx_ajax.php:19
+#: include/lh_ajax.php:19 include/txinfo.php:16
+msgid "Name"
+msgstr "名称"
+
+#: include/ysfgatewayinfo.php:39
+msgid "Description"
+msgstr "详情"
+
+#: include/ysfgatewayinfo.php:40
+msgid "ID"
+msgstr "账号"
+
+#: include/ysfgatewayinfo.php:41
+msgid "Connections"
+msgstr "连接"
+
+#: include/localtx_ajax.php:6
+msgid "Today's local transmissions"
+msgstr "今天的本地传输"
+
+#: include/localtx_ajax.php:13 include/lh_ajax.php:13 include/txinfo.php:10
+msgid "Time"
+msgstr "时间"
+
+#: include/localtx_ajax.php:14 include/lh_ajax.php:14 include/txinfo.php:11
+msgid "Mode"
+msgstr "模式"
+
+#: include/localtx_ajax.php:15 include/lh_ajax.php:15 include/txinfo.php:12
+msgid "Callsign"
+msgstr "呼号"
+
+#: include/localtx_ajax.php:23 include/lh_ajax.php:23 include/txinfo.php:25
+msgid "DSTAR-ID"
+msgstr "DSTAR 账号"
+
+#: include/localtx_ajax.php:24 include/lh_ajax.php:24 include/txinfo.php:26
+msgid "Target"
+msgstr "目标"
+
+#: include/localtx_ajax.php:25 include/lh_ajax.php:25 include/txinfo.php:27
+msgid "Source"
+msgstr "来源"
+
+#: include/localtx_ajax.php:26 include/lh_ajax.php:26
+msgid "Dur (s)"
+msgstr "时长"
+
+#: include/localtx_ajax.php:27 include/lh_ajax.php:27
+msgid "Loss"
+msgstr "丢失"
+
+#: include/localtx_ajax.php:28 include/lh_ajax.php:28
+msgid "BER"
+msgstr "误码率"
+
+#: include/localtx_ajax.php:30
+msgid "RSSI (min)"
+msgstr "信号弱"
+
+#: include/localtx_ajax.php:31
+msgid "RSSI (max)"
+msgstr "信号强"
+
+#: include/localtx_ajax.php:32 include/localtx_ajax.php:33
+msgid "RSSI (avg)"
+msgstr "信号均衡"
+
+#: include/repeaterinfo.php:3
+msgid "Repeater Info"
+msgstr "中继器信息"
+
+#: include/repeaterinfo.php:9
+msgid "Current Mode"
+msgstr "当前模式"
+
+#: include/repeaterinfo.php:13
+msgid "D-Star linked to"
+msgstr "D-Star 链接到"
+
+#: include/repeaterinfo.php:18
+msgid "YSF linked to"
+msgstr "YSF 链接到"
+
+#: include/repeaterinfo.php:23
+msgid "DMR TS1 last linked to"
+msgstr "DMR 时隙1 最后链接到"
+
+#: include/repeaterinfo.php:24
+msgid "DMR TS2 last linked to"
+msgstr "DMR 时隙2 最后链接到"
+
+#: include/repeaterinfo.php:48
+msgid "Location"
+msgstr "位置"
+
+#: include/repeaterinfo.php:49
+msgid "TX-Freq."
+msgstr "TX 频率"
+
+#: include/repeaterinfo.php:50
+msgid "RX-Freq."
+msgstr "RX 频率"
+
+#: include/repeaterinfo.php:54
+msgid "YSFGateway"
+msgstr ""
+
+#: include/repeaterinfo.php:59
+msgid "DMR CC"
+msgstr ""
+
+#: include/repeaterinfo.php:63
+msgid "DMR-Master"
+msgstr ""
+
+#: include/repeaterinfo.php:64
+msgid "TS1"
+msgstr "时隙1"
+
+#: include/repeaterinfo.php:65
+msgid "TS2"
+msgstr "时隙2"
+
+#: include/repeaterinfo.php:97 include/repeaterinfo.php:104
+msgid "enabled"
+msgstr "打开"
+
+#: include/repeaterinfo.php:99 include/repeaterinfo.php:106
+msgid "disabled"
+msgstr "关闭"
+
+#: include/tools.php:73
+msgid ""
+"You are using an old config.php. Please configure your Dashboard by calling "
+"<a href=\"setup.php\">setup.php</a>!"
+msgstr "您使用的是旧的config.php。请致电配置您的仪表板"
+
+#: include/tools.php:79
+msgid ""
+"You forgot to remove setup.php in root-directory of your dashboard or you "
+"forgot to configure it! Please delete the file or configure your Dashboard "
+"by calling <a href=\"setup.php\">setup.php</a>!"
+msgstr "您忘记删除仪表板根目录中的setup.php，或者您忘记配置了！请删除该文件或配置您的仪表板 <a href=\"setup.php\">setup.php</a>!"
+
+#: include/modes.php:3
+msgid "Enabled Modes"
+msgstr "启用模式"
+
+#: include/lh_ajax.php:6
+msgid "Last Heard List of today's"
+msgstr "今日通联记录"
+
+#: include/lh_ajax.php:6
+msgid "callsigns."
+msgstr "呼号."
+
+#: include/disk.php:3
+msgid "Disk Use"
+msgstr "磁盘情况"
+
+#: include/disk.php:10
+msgid "File System"
+msgstr "系统文件"
+
+#: include/disk.php:11
+msgid "Mount Point"
+msgstr "挂载点"
+
+#: include/disk.php:12
+msgid "Use"
+msgstr "功能"
+
+#: include/disk.php:13
+msgid "Free"
+msgstr "剩余"
+
+#: include/disk.php:14
+msgid "Used"
+msgstr "使用"
+
+#: include/disk.php:15
+msgid "Total"
+msgstr "总量"
+
+#: include/txinfo.php:3
+msgid "Currently TXing"
+msgstr "当前交换信息"
+
+#: include/txinfo.php:21
+msgid "Talker Alias"
+msgstr "Talker别名"
+
+#: include/txinfo.php:28
+msgid "TX-Time"
+msgstr "通信时长"
+
+#: scripts/rebootmmdvm.php:50 scripts/halt.php:49 scripts/log.php:53
+#: scripts/reboot.php:50 index.php:59
+msgid "for"
+msgstr "来自"
+
+#: scripts/rebootmmdvm.php:52 scripts/halt.php:51 scripts/log.php:55
+#: scripts/reboot.php:52 index.php:60
+msgid "Repeater"
+msgstr "中继器"
+
+#: scripts/rebootmmdvm.php:54 scripts/halt.php:53 scripts/log.php:57
+#: scripts/reboot.php:54 index.php:63
+msgid "Hotspot"
+msgstr "热点"
+
+#: scripts/rebootmmdvm.php:58 scripts/reboot.php:58
+msgid "Home"
+msgstr "主页"
+
+#: scripts/rebootmmdvm.php:67 scripts/reboot.php:66
+msgid "Executing"
+msgstr "状态"
+
+#: scripts/rebootmmdvm.php:67
+msgid "Reboot MMDVMHost service in progress"
+msgstr "正在重启 MMDVMHost 服务"
+
+#: scripts/rebootmmdvm.php:90 scripts/halt.php:89 scripts/log.php:134
+#: scripts/reboot.php:89 index.php:244
+msgid "Server listening address:"
+msgstr "服务器侦听地址:"
+
+#: scripts/rebootmmdvm.php:90 scripts/halt.php:89 scripts/log.php:134
+#: scripts/reboot.php:89 index.php:174 credits.php:13 credits.php:17
+msgid "Credits"
+msgstr "致谢"
+
+#: scripts/halt.php:66
+msgid "Halt in progress...bye"
+msgstr "暂停进行中。。。再见"
+
+#: scripts/log.php:61 index.php:100
+msgid "View Log"
+msgstr "查看日志"
+
+#: scripts/log.php:62 index.php:101
+msgid "Reboot MMDVMHost"
+msgstr "重启 MMDVMHost"
+
+#: scripts/log.php:63 index.php:102
+msgid "Reboot System"
+msgstr "重启"
+
+#: scripts/log.php:64 index.php:103
+msgid "ShutDown System"
+msgstr "关机"
+
+#: scripts/log.php:68 index.php:108
+msgid "DMRplus"
+msgstr ""
+
+#: scripts/log.php:69 index.php:109
+msgid "BrandMeister"
+msgstr ""
+
+#: scripts/log.php:76
+msgid "Viewing log"
+msgstr "查看日志"
+
+#: scripts/log.php:82
+msgid "Level"
+msgstr "数量"
+
+#: scripts/log.php:83
+msgid "Timestamp"
+msgstr "时间戳"
+
+#: scripts/log.php:84
+msgid "Info"
+msgstr "信息"
+
+#: scripts/reboot.php:66
+msgid "Reboot system in progress"
+msgstr "正在重启系统"
+
+#: ajax.php:214
+msgid "Power"
+msgstr "电源"
+
+#: ajax.php:219
+msgid "CPU-Temperature"
+msgstr "CPU温度"
+
+#: ajax.php:224
+msgid "CPU-Frequency"
+msgstr "CPU频率"
+
+#: ajax.php:228
+msgid "System-Load"
+msgstr "系统负载"
+
+#: ajax.php:229
+msgid "CPU-Usage"
+msgstr "CPU使用率"
+
+#: ajax.php:230
+msgid "Uptime"
+msgstr "运行"
+
+#: ajax.php:231
+msgid "Idle"
+msgstr "空闲"
+
+#: ajax.php:237
+msgid "online"
+msgstr "联机"
+
+#: ajax.php:237
+msgid "on battery"
+msgstr "电池供电"
+
+#: index.php:70
+msgid "DMR-Network:"
+msgstr "DMR 网络:"
+
+#: index.php:159
+msgid "Last Reload"
+msgstr "上次重新加载"
+
+#: index.php:169
+msgid "stop refreshing"
+msgstr "停止刷新"
+
+#: index.php:171
+msgid "start refreshing"
+msgstr "开始刷新"
+
+#: credits.php:20
+msgid ""
+"I think, after all the time this dashboard is developed mainly by myself, it "
+"is time to say \"Thank you\" to all those, wo delivered some ideas or code "
+"into this project."
+msgstr "我想，毕竟这个仪表板主要是我自己开发的，对这个项目提供建议或代码的人们说声“谢谢”了."
+
+#: credits.php:21
+msgid "This are explicit named following persons:"
+msgstr "鸣谢:"
+
+#: credits.php:31
+msgid "and some others..."
+msgstr "以及其他一些..."
+
+#: credits.php:33
+msgid ""
+"Those, who felt forgotten, feel free to commit a change into github of this "
+"file."
+msgstr "那些感到被遗忘的人，可以随时在github上提交更改"
+
+#: credits.php:34
+msgid "Many thanks to you all!"
+msgstr "非常感谢大家！"
+
+#: credits.php:35
+msgid "Best 73, Kim, DG9VH"
+msgstr ""
+
+#: setup.php:26
+msgid ""
+"You forgot to give write-permissions to your webserver-user, see point 3 in "
+"<a href=\"linux-step-by-step.md\">linux-step-by-step.md</a>!"
+msgstr "您忘记向您的Web服务器用户授予写入权限"
+
+#: setup.php:41 setup.php:50
+msgid "Setup-Process"
+msgstr "设置向导"
+
+#: setup.php:42
+msgid ""
+"Your config-file is written in config/config.php, please remove setup.php "
+"for security reasons!"
+msgstr "出于安全原因！您的配置文件写在config/config.php中，请删除setup.php"
+
+#: setup.php:43
+msgid "Your dashboard is now available."
+msgstr "现在可用的仪表板."
+
+#: setup.php:51
+msgid "Please give necessary information below"
+msgstr "请提供下面必要的信息"
+
+#: setup.php:56
+msgid "MMDVMHost-Configuration"
+msgstr "MMDVMHost 配置"
+
+#: setup.php:58
+msgid "Path to MMDVMHost-logfile"
+msgstr " MMDVMHost 日志文件"
+
+#: setup.php:62
+msgid "Path to MMDVM.ini"
+msgstr "MMDVM.ini 路径"
+
+#: setup.php:66
+msgid "MMDVM.ini-filename"
+msgstr "MMDVM.ini 文件名"
+
+#: setup.php:70
+msgid "Path to MMDVMHost-executable"
+msgstr "MMDVMHost可执行文件的路径"
+
+#: setup.php:74
+msgid "Enable extended lookup (show names)"
+msgstr "启用扩展查找（显示名称）"
+
+#: setup.php:78
+msgid "Show Talker Alias"
+msgstr "显示对方别名"
+
+#: setup.php:82
+msgid "Path to DMR-ID-Database-File (including filename)"
+msgstr "DMR ID数据库文件的路径（包括文件名）"
+
+#: setup.php:87
+msgid "YSFGateway-Configuration"
+msgstr "YSFGateway 配置"
+
+#: setup.php:89
+msgid "Enable YSFGateway"
+msgstr "打开 YSFGateway"
+
+#: setup.php:93
+msgid "Path to YSFGateway-logfile"
+msgstr "YSFGateway 日志文件路径"
+
+#: setup.php:97
+msgid "Logfile-prefix"
+msgstr "日志文件前缀"
+
+#: setup.php:101
+msgid "Path to YSFGateway.ini"
+msgstr "YSFGateway.ini 路径"
+
+#: setup.php:105
+msgid "YSFGateway.ini-filename"
+msgstr "YSFGateway.ini 文件名"
+
+#: setup.php:109
+msgid "Path to YSFHosts.txt"
+msgstr "YSFHosts.txt 路径"
+
+#: setup.php:113
+msgid "YSFHosts.txt-filename"
+msgstr "YSFHosts.txt 文件名"
+
+#: setup.php:118
+msgid "ircddbgateway-Configuration"
+msgstr "ircddbgateway 配置"
+
+#: setup.php:120
+msgid "Path to Links.log"
+msgstr "Links.log 路径"
+
+#: setup.php:124
+msgid "Name of ircddbgateway-executeable"
+msgstr "可执行ircddbgateway的名称"
+
+#: setup.php:129
+msgid "Global Configuration"
+msgstr "全局配置"
+
+#: setup.php:188
+msgid "Locale"
+msgstr "区域设置"
+
+#: setup.php:192
+msgid "URL to Logo"
+msgstr "Logo 地址"
+
+#: setup.php:196
+msgid "URL to DMRplus-Logo"
+msgstr "DMRplus-Logo 地址"
+
+#: setup.php:200
+msgid "URL to BrandMeister-Logo"
+msgstr "BrandMeister-Logo 地址"
+
+#: setup.php:204
+msgid "Refresh page after in seconds"
+msgstr "秒后刷新页面"
+
+#: setup.php:208
+msgid "Show System Info"
+msgstr "系统信息"
+
+#: setup.php:212
+msgid "Show Disk Use"
+msgstr "磁盘情况"
+
+#: setup.php:216
+msgid "Show Repeater Info"
+msgstr "中继器信息"
+
+#: setup.php:220
+msgid "Show Enabled Modes"
+msgstr "启用模式"
+
+#: setup.php:224
+msgid "Show Last Heard List of today's"
+msgstr "今天通联列表"
+
+#: setup.php:228
+msgid "Show Today's local transmissions"
+msgstr "今天本地传输"
+
+#: setup.php:232
+msgid "Show progressbars"
+msgstr "显示进度条"
+
+#: setup.php:236
+msgid "Enable CPU-temperature-warning"
+msgstr "CPU温度警告"
+
+#: setup.php:240
+msgid "Warning temperature"
+msgstr "温度警告"
+
+#: setup.php:244
+msgid "Enable Network-Switching-Function"
+msgstr "启用网络切换功能"
+
+#: setup.php:248
+msgid "Username for switching networks:"
+msgstr "交换网络的用户名:"
+
+#: setup.php:252
+msgid "Password for switching networks:"
+msgstr "切换网络密码:"
+
+#: setup.php:257
+msgid "Enable Management-Functions below"
+msgstr "启用下面的管理功能"
+
+#: setup.php:261
+msgid "Username for view log:"
+msgstr "查看用户名日志:"
+
+#: setup.php:265
+msgid "Password for view log:"
+msgstr "查看日志密码:"
+
+#: setup.php:269
+msgid "Username for halt:"
+msgstr "注销用户:"
+
+#: setup.php:273
+msgid "Password for halt:"
+msgstr "停用密码"
+
+#: setup.php:277
+msgid "Username for reboot:"
+msgstr "修改用户名:"
+
+#: setup.php:281
+msgid "Password for reboot:"
+msgstr "修改密码:"
+
+#: setup.php:285
+msgid "Username for restart:"
+msgstr "新用户名:"
+
+#: setup.php:289
+msgid "Password for restart:"
+msgstr "新密码:"
+
+#: setup.php:293
+msgid "Reboot MMDVMHost command:"
+msgstr "重启 MMDVMHost 命令:"
+
+#: setup.php:297
+msgid "Reboot system command:"
+msgstr "重启系统命令:"
+
+#: setup.php:301
+msgid "Halt system command:"
+msgstr "注销系统命令:"
+
+#: setup.php:305
+msgid "Show Powerstate (online or battery, wiringpi needed)"
+msgstr "显示电源状态（需要连接 适配器 或 电池）"
+
+#: setup.php:309
+msgid "GPIO pin to monitor:"
+msgstr "GPIO引脚用于监控:"
+
+#: setup.php:313
+msgid "State that signalizes online-state:"
+msgstr "在线情况"
+
+#: setup.php:317
+msgid "Show link to QRZ.com on Callsigns"
+msgstr "显示 QRZ.com 呼号"
+
+#: setup.php:321
+msgid "RSSI value"
+msgstr "信号值"
+
+#: setup.php:323
+msgid "minimal"
+msgstr "最小"
+
+#: setup.php:324
+msgid "maximal"
+msgstr "最大"
+
+#: setup.php:325
+msgid "average"
+msgstr "均衡"
+
+#: setup.php:331
+msgid "Save configuration"
+msgstr "保存配置"
+
+#: include/functions.php:13 include/functions.php:15
+msgid "compiled"
+msgstr "编译"
+
+#: include/functions.php:161
+msgid "ircddbgateway is down!"
+msgstr "ircddbgateway 宕机"
+
+#: include/functions.php:164 include/functions.php:175
+msgid "Remote gateway configured - not checked!"
+msgstr "远程网关已配置-未检查！"
+
+#: include/functions.php:172
+msgid "YSFGateway is down!"
+msgstr "YSFGateway 宕机"
+
+#: include/functions.php:182
+msgid "MMDVMHost is down!"
+msgstr "MMDVMHost 宕机"
+
+#: include/functions.php:550
+msgid "idle"
+msgstr "空闲"
+
+#: include/functions.php:623
+msgid "ircddbgateway not running!"
+msgstr "ircddbgateway 未运行"
+
+#: include/functions.php:640 include/functions.php:656
+#: include/functions.php:741
+msgid "not linked"
+msgstr "未链接"
+
+#: include/functions.php:692
+msgid "something went wrong!"
+msgstr "出了点问题！"
+
+#: include/functions.php:706 include/functions.php:724
+msgid "Reflector not linked"
+msgstr "反射器未链接"
+
+#: include/functions.php:708 include/functions.php:719
+msgid "Reflector"
+msgstr "反射器"
+
+#: include/functions.php:719
+msgid "not cfmd"
+msgstr ""
+
+#: include/functions.php:743
+msgid "YSFGateway not running"
+msgstr "YSFGateway 未运行"
+
+#: include/functions.php:830
+msgid "DMRIDs.dat not correct!"
+msgstr "DMRIDs.dat 错误"
+
+#: index.php:78
+msgid "Configuration"
+msgstr "配置"
+
+#: setup.php:209
+msgid "Use networks.php instead of configuration below"
+msgstr "使用 networks.php，而不是当前的设置"
+
+#: include/lh_ajax.php:6
+msgid "Cached"
+msgstr "高速缓存"
+
+
+
+
+
+
+
+
+
+
