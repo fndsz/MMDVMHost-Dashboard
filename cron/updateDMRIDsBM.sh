@@ -33,7 +33,7 @@
 
 
 # Full path to DMR ID file
-DMRIDFILE=/var/www/html/DMRIds.dat
+DMRIDFILE=/var/lib/mmdvm/DMRIds.dat
 
 # How many DMR ID files do you want backed up (0 = do not keep backups)
 DMRFILEBACKUP=1
@@ -62,7 +62,7 @@ fi
 #rm -f /tmp/DMRIds.dat.$(date +%d%m%y)
 
 # Uncomment it if you want to get the data from database of the BrandMeister network
-curl 'http://registry.dstar.su/dmr/DMRIds.php' 2>/dev/null | sed -e 's/[[:space:]]\+/ /g' > ${DMRIDFILE}
+curl 'https://ham-digital.org/status/dmrid.dat' 2>/dev/null | sed -e 's/[[:space:]]\+/ /g' > ${DMRIDFILE}
 mv /tmp/DMRIds.dat.$(date +%d%m%y) ${DMRIDFILE}
 rm -f /tmp/DMRIds.dat.$(date +%d%m%y)
 
