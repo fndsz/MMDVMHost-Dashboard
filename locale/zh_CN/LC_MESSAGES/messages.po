@@ -24,7 +24,7 @@ msgstr "自定义信息"
 
 #: index.php:191
 msgid "File custom.php not found! Did you forget to create it?"
-msgstr "找不到custom.php文件！你忘了创建它了吗？"
+msgstr "找不到 custom.php 文件！你忘了创建它了吗？"
 
 #: include/sysinfo_ajax.php:3
 msgid "System Info"
@@ -117,7 +117,7 @@ msgstr "信号强"
 
 #: include/localtx_ajax.php:32 include/localtx_ajax.php:33
 msgid "RSSI (avg)"
-msgstr "信号均衡"
+msgstr "信号强度"
 
 #: include/repeaterinfo.php:3
 msgid "Repeater Info"
@@ -187,7 +187,7 @@ msgstr "关闭"
 msgid ""
 "You are using an old config.php. Please configure your Dashboard by calling "
 "<a href=\"setup.php\">setup.php</a>!"
-msgstr "您使用的是旧的config.php。请致电配置您的仪表板"
+msgstr "您使用的是旧的 config.php 。请查询您的仪表板设置"
 
 #: include/tools.php:79
 msgid ""
@@ -738,6 +738,10 @@ msgstr "使用 networks.php，而不是当前的设置"
 #: include/lh_ajax.php:6
 msgid "Cached"
 msgstr "高速缓存"
+
+#: setup.php:146
+msgid "Timezone"
+msgstr "时区"
 
 
 
