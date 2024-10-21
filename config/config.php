@@ -23,7 +23,7 @@ define("DMRGATEWAYLOGPREFIX", "DMRGateway");
 define("DMRGATEWAYINIPATH", "/opt/DMRGateway");
 define("DMRGATEWAYPATH", "/opt/DMRGateway");
 define("DMRGATEWAYINIFILENAME", "DMRGateway.ini");
-define("DAPNETGATEWAYLOGPATH", "/var/lib/mmdvm");
+define("DAPNETGATEWAYLOGPATH", "/var/log/mmdvm");
 define("DAPNETGATEWAYLOGPREFIX", "DAPNETGateway");
 define("DAPNETGATEWAYINIPATH", "/opt/DAPNETGateway");
 define("DAPNETGATEWAYPATH", "/opt/DAPNETGateway");
