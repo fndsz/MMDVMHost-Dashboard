@@ -63,7 +63,7 @@ include "version.php";
   }
   ?>:</small>  <?php echo getCallsign($mmdvmconfigs) ?><br>
   <small>DMR-Id: <?php echo getDMRId($mmdvmconfigs) ?></small></h1><hr>
-  <h5>MMDVMHost by G4KLX Version: <?php echo getMMDVMHostVersion() ?><br>Firmware: <?php echo getFirmwareVersion();
+  <h4>MMDVMHost by G4KLX Version: <?php echo getMMDVMHostVersion() ?><br>Firmware: <?php echo getFirmwareVersion();
   if (defined("ENABLEDMRGATEWAY")) {
 ?>
 <br>DMRGateway by G4KLX Version: <?php echo getDMRGatewayVersion(); 
@@ -81,7 +81,7 @@ include "version.php";
       echo _("DMR-Network: ").getDMRNetwork();
     }
   }
-  ?></h5>
+  ?></h4>
   <?php
   $logourl = "";
   if (defined("JSONNETWORK")) {
@@ -218,13 +218,9 @@ if (defined("SHOWLOCALTX")) {
    include "include/localtx_ajax.php";
    showLapTime("localtx_ajax");
 }
-if (defined("SHOWDAPNET")) {
-   include "include/dapnet_ajax.php";
-   showLapTime("dapnet_ajax");
-}
-if (defined("ENABLEYSFGATEWAY")|| defined("ENABLEDMRGATEWAY")) {
-   include "include/gatewayinfo.php";
-   showLapTime("gatewayinfo");
+if (defined("ENABLEYSFGATEWAY")) {
+   include "include/ysfgatewayinfo.php";
+   showLapTime("ysfgatewayinfo");
 }
 ?>
    <div class="panel panel-info">
@@ -241,7 +237,7 @@ if (!isset($_GET['stoprefresh'])) {
    echo '<a href=".">'._("start refreshing").'</a>';
 }
 ?>
- | <?php echo _("get your own at:");?> <a href="https://github.com/dg9vh/MMDVMHost-Dashboard">https://github.com/dg9vh/MMDVMHost-Dashboard</a> | <?php echo _("Follow me");?> <a href="https://radiosocial.de/@DG9VH">@DG9VH@radiosocial.de</a> | <a href="credits.php"><?php echo _("Credits");?></a>
+ | <?php echo _("get your own at:");?> <a href="https://github.com/dg9vh/MMDVMHost-Dashboard">https://github.com/dg9vh/MMDVMHost-Dashboard</a> | <?php echo _("Follow me");?> <a href="https://twitter.com/DG9VH">@DG9VH</a> | <a href="credits.php"><?php echo _("Credits");?></a>
    </div>
    <noscript>
     For full functionality of this site it is necessary to enable JavaScript.
