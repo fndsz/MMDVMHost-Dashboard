@@ -2,8 +2,8 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# fndsz
 #
-#, fndsz
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -11,7 +11,7 @@ msgstr ""
 "POT-Creation-Date: 2017-03-14 13:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Chinese (simplified)\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +24,7 @@ msgstr "自定义信息"
 
 #: index.php:191
 msgid "File custom.php not found! Did you forget to create it?"
-msgstr "找不到 custom.php 文件！你忘了创建它了吗？"
+msgstr "找不到custom.php文件！你忘了创建它了吗？"
 
 #: include/sysinfo_ajax.php:3
 msgid "System Info"
@@ -85,7 +85,7 @@ msgstr "呼号"
 
 #: include/localtx_ajax.php:23 include/lh_ajax.php:23 include/txinfo.php:25
 msgid "DSTAR-ID"
-msgstr "DSTAR 账号"
+msgstr "DSTAR账号"
 
 #: include/localtx_ajax.php:24 include/lh_ajax.php:24 include/txinfo.php:26
 msgid "Target"
@@ -117,7 +117,7 @@ msgstr "信号强"
 
 #: include/localtx_ajax.php:32 include/localtx_ajax.php:33
 msgid "RSSI (avg)"
-msgstr "信号强度"
+msgstr "信号报告"
 
 #: include/repeaterinfo.php:3
 msgid "Repeater Info"
@@ -125,7 +125,7 @@ msgstr "中继器信息"
 
 #: include/repeaterinfo.php:9
 msgid "Current Mode"
-msgstr "当前模式"
+msgstr "当前状态"
 
 #: include/repeaterinfo.php:13
 msgid "D-Star linked to"
@@ -137,11 +137,11 @@ msgstr "YSF 链接到"
 
 #: include/repeaterinfo.php:23
 msgid "DMR TS1 last linked to"
-msgstr "DMR 时隙1 最后链接到"
+msgstr "DMR时隙1 最后链接信息"
 
 #: include/repeaterinfo.php:24
 msgid "DMR TS2 last linked to"
-msgstr "DMR 时隙2 最后链接到"
+msgstr "DMR时隙2 最后链接信息"
 
 #: include/repeaterinfo.php:48
 msgid "Location"
@@ -161,11 +161,11 @@ msgstr ""
 
 #: include/repeaterinfo.php:59
 msgid "DMR CC"
-msgstr ""
+msgstr "发射功率"
 
 #: include/repeaterinfo.php:63
 msgid "DMR-Master"
-msgstr ""
+msgstr "DMR主站"
 
 #: include/repeaterinfo.php:64
 msgid "TS1"
@@ -187,7 +187,7 @@ msgstr "关闭"
 msgid ""
 "You are using an old config.php. Please configure your Dashboard by calling "
 "<a href=\"setup.php\">setup.php</a>!"
-msgstr "您使用的是旧的 config.php 。请查询您的仪表板设置"
+msgstr "您使用的是旧的config.php。请致电配置您的仪表板"
 
 #: include/tools.php:79
 msgid ""
@@ -390,7 +390,7 @@ msgid ""
 "I think, after all the time this dashboard is developed mainly by myself, it "
 "is time to say \"Thank you\" to all those, wo delivered some ideas or code "
 "into this project."
-msgstr "我想，毕竟这个仪表板主要是我自己开发的，对这个项目提供建议或代码的人们说声“谢谢”了."
+msgstr "我想，毕竟这个仪表板主要是我自己开发的，并对这个项目提供建议或代码的人们说声“谢谢”."
 
 #: credits.php:21
 msgid "This are explicit named following persons:"
@@ -644,7 +644,7 @@ msgstr "GPIO引脚用于监控:"
 
 #: setup.php:313
 msgid "State that signalizes online-state:"
-msgstr "在线情况"
+msgstr "在线情况:"
 
 #: setup.php:317
 msgid "Show link to QRZ.com on Callsigns"
@@ -738,17 +738,3 @@ msgstr "使用 networks.php，而不是当前的设置"
 #: include/lh_ajax.php:6
 msgid "Cached"
 msgstr "高速缓存"
-
-#: setup.php:146
-msgid "Timezone"
-msgstr "时区"
-
-
-
-
-
-
-
-
-
-
